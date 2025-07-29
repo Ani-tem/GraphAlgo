@@ -774,7 +774,7 @@ export default function App() {
                             <Sparkles className="text-violet-400" size={24} />
                             <h3 className="text-2xl font-bold">Generate Graph with AI</h3>
                         </div>
-                        <p className="text-zinc-400 mb-6">Describe the kind of graph you want to create. For example, "a simple social network" or "a map of major US cities".</p>
+                        <p className="text-zinc-400 mb-6">Describe the kind of graph you want to create. For example, "a simple social network" or "a map of major Indian cities".</p>
                         <textarea
                             value={aiPrompt}
                             onChange={(e) => setAiPrompt(e.target.value)}
