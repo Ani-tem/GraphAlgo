@@ -636,7 +636,7 @@ export default function App() {
                                             id="startNodeInput"
                                             type="text"
                                             value={startNode || ''}
-                                            onChange={(e) => setStartNode(e.target.value.toUpperCase())}
+                                            onChange={(e) => setStartNode(e.target.value)}
                                             disabled={isAlgoRunning || algorithm === 'floyd-warshall'}
                                             className="w-full bg-zinc-800 border-zinc-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-violet-500 disabled:opacity-50 disabled:cursor-not-allowed"
                                             placeholder="e.g., A"
@@ -648,7 +648,7 @@ export default function App() {
                                             id="endNodeInput"
                                             type="text"
                                             value={endNode || ''}
-                                            onChange={(e) => setEndNode(e.target.value.toUpperCase())}
+                                            onChange={(e) => setEndNode(e.target.value)}
                                             disabled={isAlgoRunning || algorithm === 'floyd-warshall'}
                                             className="w-full bg-zinc-800 border-zinc-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-violet-500 disabled:opacity-50 disabled:cursor-not-allowed"
                                             placeholder="e.g., G"
@@ -774,7 +774,7 @@ export default function App() {
                             <Sparkles className="text-violet-400" size={24} />
                             <h3 className="text-2xl font-bold">Generate Graph with AI</h3>
                         </div>
-                        <p className="text-zinc-400 mb-6">Describe the kind of graph you want to create. For example, "a simple social network" or "a map of major US cities".</p>
+                        <p className="text-zinc-400 mb-6">Describe the kind of graph you want to create. For example, "a simple social network" or "a map of major Indian cities".</p>
                         <textarea
                             value={aiPrompt}
                             onChange={(e) => setAiPrompt(e.target.value)}
