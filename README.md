@@ -138,6 +138,6 @@ This project is licensed under the [MIT License](./LICENSE.md).
 ## 📬 Contact
 
 **Anirudh**  
-🔗 [GitHub Repo](https://github.com/your-username/your-repo-name)
+🔗 [GitHub Repo](https://github.com/Ani-tem/GraphAlgo)
 
 > ⭐ If you like the project, don't forget to star the repo!
